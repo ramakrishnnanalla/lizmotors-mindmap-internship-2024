@@ -1,0 +1,25 @@
+export let mindMapData = [
+    {id: 1, Label: "ABC Auto", branch: "Root"},
+    {id: 2, Label: "Research", parentId:1 ,branch: "Right"},
+    {id: 3, Label: "Planning", parentId:1 ,branch: "Right"},
+    {id: 4, Label: "Design", parentId:1 ,branch: "Right"},
+    {id: 5, Label: "Manufacturing", parentId:1 ,branch: "Right"},
+    {id: 6, Label: "Sales", parentId:1 ,branch: "Right"},
+    {id: 7, Label: "Internal", parentId:2 ,branch: "subRight"},
+    {id: 8, Label: "Enternal", parentId:2 ,branch: "subRight"},
+    {id: 9, Label: "B2C", parentId:7 ,branch: "subRight"},
+    {id: 10, Label: "Online", parentId:9 ,branch: "subRight"},
+    {id: 11, Label: "Public Data", parentId:9 ,branch: "subRight"},
+    {id: 12, Label: "Interview", parentId:9 ,branch: "subRight"},
+    {id: 13, Label: "Health", parentId:9 ,branch: "subRight"},
+    {id: 14, Label: "PRD", parentId: 3,branch: "subRight"},
+    {id: 15, Label: "Specs", parentId: 3,branch: "subRight"},
+    {id: 16, Label: "Hardware", parentId: 4,branch: "subRight"},
+    {id: 17, Label: "Software", parentId: 4,branch: "subRight"},
+    {id: 18, Label: "Material", parentId: 5,branch: "subRight"},
+    {id: 19, Label: "Production", parentId: 5,branch: "subRight"},
+    {id: 20, Label: "Online", parentId: 6,branch: "subRight"},
+    {id: 21, Label: "Dealership", parentId: 6,branch: "subRight"},
+
+
+]
